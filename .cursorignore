@@ -1,0 +1,28 @@
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+
+# Dependencies
+node_modules/
+dist/
+
+# Database
+*.sqlite
+*.sqlite-journal
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Build
+build/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
